@@ -26,11 +26,11 @@
   "plugins": ["react", "prettier"],
   "rules": {
     "linebreak-style": ["error", "unix"],
-    "prettier/prettier": false,
+    "prettier/prettier": "error",
     "quotes": ["error", "single"],
     "semi": ["error", "always"],
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "no-unused-vars": "warn",
+    "no-unused-vars": "error",
     "no-console": "off",
     "func-names": "off",
     "no-process-exit": "off",
